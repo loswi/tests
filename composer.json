@@ -1,5 +1,10 @@
 {
     "name": "lowi/tests",
     "description": "lowi test",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "lowi\\tests\\":"src/"        
+        }    
+    }
 }
